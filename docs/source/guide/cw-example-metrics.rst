@@ -27,7 +27,7 @@ Metrics are data about the performance of your systems. You can enable detailed 
 resources, such as your Amazon CloudWatch instances, or your own application metrics.
 
 In this example, Python code is used to get and send CloudWatch metrics data. 
-The code uses the uses the AWS SDK for Python to get metrics from CloudWatch 
+The code uses the AWS SDK for Python to get metrics from CloudWatch 
 using these methods of the CloudWatch client class:
 
 * `paginate('list_metrics') <https://boto3.readthedocs.io/en/latest/reference/services/cloudwatch.html#CloudWatch.Client.paginate>`_.
